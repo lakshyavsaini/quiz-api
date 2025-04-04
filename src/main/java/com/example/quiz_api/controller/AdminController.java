@@ -19,5 +19,5 @@ public class AdminController {
         return quizService.createQuiz(quiz);
     }
 
-    // Other admin-related endpoints
+
 }

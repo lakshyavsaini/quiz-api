@@ -14,9 +14,8 @@ public class QuizController {
 
     @PostMapping("/submitResponse")
     public String submitResponse(@RequestBody Response response) {
-        // Save response logic
+        // saving response logic
         return "Response submitted successfully";
     }
 
-    // Other quiz-related endpoints
 }
